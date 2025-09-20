@@ -1,0 +1,11 @@
+# ninja log v7
+31	93	7800631252358891	CMakeFiles/chocolate.dir/src/chocolate.cpp.obj	e1298ae0c278afcd
+37	101	7800631252494118	tests/CMakeFiles/runTests.dir/__/src/chocolate.cpp.obj	b8002b9c021f063
+29	261	7800631252358891	CMakeFiles/chocolate.dir/src/main.cpp.obj	7974d0f388a5201a
+262	340	7800631254755463	chocolate.exe	de966fc51b8077e0
+26	999	7800631252358891	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	44408714a5eedfe9
+33	1304	7800631252460538	tests/CMakeFiles/runTests.dir/test_chocolate.cpp.obj	c48af4d9f5dc5652
+23	10088	7800631252358891	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	fbc42ee92985bbac
+10089	10232	7800631353020582	lib/libgtest.a	f89c172bb054f42a
+10233	10293	7800631354456795	lib/libgtest_main.a	b5ff9dbf13b5765
+10293	10481	7800631355059110	tests/runTests.exe	9eb0ca7e90538f6b

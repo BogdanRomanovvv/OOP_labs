@@ -1,0 +1,37 @@
+Start testing: Sep 20 12:19 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/1 Testing: runTests
+1/1 Test: runTests
+Command: "D:/ChocolateDivider/build/tests/runTests.exe"
+Directory: D:/ChocolateDivider/build/tests
+"runTests" start time: Sep 20 12:19 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from D:/ChocolateDivider/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from ChocolateTest
+[ RUN      ] ChocolateTest.BasicCases
+[       OK ] ChocolateTest.BasicCases (0 ms)
+[ RUN      ] ChocolateTest.EdgeCases
+[       OK ] ChocolateTest.EdgeCases (0 ms)
+[ RUN      ] ChocolateTest.LargeValues
+[       OK ] ChocolateTest.LargeValues (0 ms)
+[ RUN      ] ChocolateTest.Symmetry
+[       OK ] ChocolateTest.Symmetry (0 ms)
+[ RUN      ] ChocolateTest.RandomValues
+[       OK ] ChocolateTest.RandomValues (0 ms)
+[----------] 5 tests from ChocolateTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"runTests" end time: Sep 20 12:19 RTZ 2 (çèìà)
+"runTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 20 12:19 RTZ 2 (çèìà)
