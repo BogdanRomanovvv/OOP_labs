@@ -1,27 +1,12 @@
-FROM gcc:14
-RUN apt-get update && \
-    apt-get install -y \
-    cmake \
-    make \
-    git \
-    wget \
-    unzip \
-    build-essential \
-    libssl-dev \
-    && rm -rf /var/lib/apt/lists/*
-WORKDIR /workspace
-CMD ["/bin/bash"]
+# Стандартный GCC и Cmake
+FROM gcc:14.2.0
 
-FROM gcc:14
-RUN apt-get update && \
-    apt-get install -y \
-    cmake \
-    make \
-    git \
-    wget \
-    unzip \
-    build-essential \
-    libssl-dev \
+# Установка зависимостей
+RUN apt-get update && apt-get install -y \
+    cmake python3 python3-dev python3-pip wrk clangd\
     && rm -rf /var/lib/apt/lists/*
+
+RUN pip install numpy --break-system-packages
+
+# Установка рабочей директории
 WORKDIR /workspace
-CMD ["/bin/bash"]
